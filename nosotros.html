@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto efimero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesrgb(255, 255, 255)://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/Logo.png" type="image/x-icon">
+    <!-- kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- logo y menú -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 bg-light" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> <img src="/img/Logo_ico_1.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Marcas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Zapatos.html">Zapatos</a></li>
+                            <li><a class="dropdown-item" href="Camisas.html">Camisas</a></li>                           
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cotizar.html">Cotizar</a>
+                    </li>
+                    <!-- enlaces a las redes -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://es-la.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/3163112168"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Email" aria-label="Suscripcion">
+                    <button class="btn btn-outline-dark" type="submit">Suscripción</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/img/Zapato_promo.PNG" class="d-block w-100 slideimg" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/img/fondo.PNG" class="d-block w-100 slideimg" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/img/slide3.jpg" class="d-block w-100 slideimg" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- noticias o novedades -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
+        <h1 class="titulo">¡Noticias!</h1>      
+        <div class="col">
+            <div class="card">
+                <img src="img/Zapato_promo.PNG" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zapatos</h5>
+                    <p class="card-text">El calzado es la parte de la indumentaria utilizada para proteger los pies. Adquiere muchas formas, como zapatos, sandalias, alpargatas, botas o deportivas</p>
+                    <a href="cotizar.html" class="btn btn-primary buy" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="img/fondo.PNG" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tendencias</h5>
+                    <p class="card-text">Las tendencias nacen en un pequeño grupo llamado Influencers o Influyentes, un grupo selecto de la sociedad que por alguna razón comienza a llevar algo, a pensar de una manera o a actuar en cierta forma en diferentes partes del mundo.</p>
+                    <a href="cotizar.html" class="btn btn-primary buy" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <iframe width="600" height="390" src="https://www.youtube.com/embed/JFtNtcarh5U" title="Mónica Márquez | Diseño y Moda | Comercial/Spot publicitario" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <!-- servicios -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="servicios">
+        <h1 class="titulo">¡¡INFO!!</h1>      
+          <div class="col">
+            <div class="card">
+                <img src="img/Moda.PNG" alt="..." >
+                <div class="card-body">
+                    <h5 class="card-title">Moda</h5>
+                    <p class="card-text">Gusto, costumbre o uso, o conjunto de ellos, propios de un grupo, un período de tiempo o un lugar determinados. Conjunto de prendas de vestir, adornos y complementos que se basan en esos gustos, usos y costumbres, y que se usan durante un período de tiempo determinado.</p>
+                    <a href="cotizar.html" class="btn btn-primary buy" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </div>
+          <div class="col">
+            <div class="card">
+                <img src="img/fondo.PNG" alt="..." >
+                <div class="card-body">
+                    <h5 class="card-title">Tendencias</h5>
+                    <p class="card-text">Las tendencias nacen en un pequeño grupo llamado Influencers o Influyentes, un grupo selecto de la sociedad que por alguna razón comienza a llevar algo, a pensar de una manera o a actuar en cierta forma en diferentes partes del mundo.</p>
+                    <h5>Tipos de tendencias</h5>
+                    <p class="card-text">Por lo general, las tendencias se pueden agrupar en tres grandes grupos según su dirección:</p>
+                  <ul>
+                    <li>Tendencia alcista: Cuando los precios de las acciones suben de forma continuada.</li>
+                    <li>Tendencia bajista: Los precios de las acciones retroceden a lo largo del periodo de observación.</li>
+                    <li>Tendencia lateral: Se da cuando hay un estancamiento en las cotizaciones o no hay una tendencia alcista o bajista clara.</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer en M. BEM -->
+    <footer id="page-footer">
+        <div class="footer__cta">
+            <div class="footer__cta-ftcontainer">
+                <h2 class="cta__txt">¿Preguntas?, Estamos aquí para ayudar</h2>
+                <div class="cta__ftrow">
+                    <a href="https://wa.me/3163112168" class="cta__btn" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ftcontainer">
+            <div class="footer__menu">
+                <figure>
+                    <img src="img/Logo.png" alt="logo"  class="footer__logo">
+                </figure>
+                <!-- iconos de redes -->
+                <p class="ft-social-ftrow">
+                    <a href="https://www.facebook.com/" target="_blank" class="ft-social"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="ft-social"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="ft-social"><i class="fa fa-youtube"></i></a>
+                </p>
+            </div>
+            <!-- horarios -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Horario</h4>
+                <span class="footer__info">
+                    Lunes a Viernes: 8:00am a 5:00pm | Sábados: 9:00am a 4:00pm
+                </span>
+            </div>
+            <!-- enlaces -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Enlaces</h4>
+                <ul class="ft-link">
+                    <li class="footer__link">
+                        <a href="nosotros.html" target="_blank">Nosotros</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="cotizar.html" target="_blank">Cotiza</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- Contactos -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Contacto</h4>
+                <p class="footer__info">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:estefaniacalderonsc2@poliandino.edu.co">Email</a>
+                </p>
+                <p class="footer__info">                    
+                        <i class="fa fa-whatsapp"></i>                    
+                        <a href="https://wa.me/3163112168" class="cta__btn" target="_blank">Whatsapp</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+</html>
